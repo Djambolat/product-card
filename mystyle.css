@@ -1,0 +1,22 @@
+
+    .card {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+     
+    }
+.buy_button{
+  background-color:rgb(13, 62, 77);
+  color: white; 
+  border-radius: 10px;
+  border-color: cornflowerblue;
+  padding: 10px;
+}
+.contentcard{
+  padding: 10px;
+  background-color: rgb(220, 247, 255);
+  align-items:center;
+  justify-content:center;
+ 
+}
