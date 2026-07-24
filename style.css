@@ -1,0 +1,38 @@
+.Title{
+    text-align: center;
+    color: #515076;
+}
+.card{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body{
+  font-family: "Arial";
+  color: #515076;
+}
+img{
+  width: 300px;
+  height: 300px;
+ 
+}
+.li-card{
+  padding: 20px;
+  background-color: #d5edff;
+  border-radius: 20px;
+  margin: 20px;
+  width: 300px;
+}
+h2 span{ 
+  text-align: right;
+  font-weight: 100;
+}
+h2{
+  font-size: 20px;
+  color: #515076;
+}
+p{
+  color:#A5A3B9
+}
+
