@@ -1,26 +1,26 @@
-.title{
+.title {
     text-align: center;
     color: #515076;
 }
 
-.card{
+.card {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-body{
+body {
   font-family: "Arial";
   color: #515076;
 }
 
-img{
+img {
   width: 300px;
   height: 300px;
 }
 
-.li-card{
+.li-card {
   padding: 20px;
   background-color: #d5edff;
   border-radius: 20px;
@@ -28,17 +28,17 @@ img{
   width: 300px;
 }
 
-h2 span{ 
+h2 span { 
   text-align: right;
   font-weight: 100;
 }
 
-h2{
+h2 {
   font-size: 20px;
   color: #515076;
 }
 
-p{
+p {
   color:#A5A3B9
 }
 
