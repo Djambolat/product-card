@@ -1,6 +1,7 @@
 .title {
     text-align: center;
     color: #515076;
+    background-color: #d5edff;
 }
 
 .card {
@@ -11,8 +12,12 @@
 }
 
 body {
-  font-family: "Arial";
+  font-family: "montserrat", arial;
   color: #515076;
+  background-image: url("images/fonofsite.jpg");
+  background-size: 500px 500px;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 img {
@@ -28,9 +33,9 @@ img {
   width: 300px;
 }
 
-h2 span { 
-  text-align: right;
-  font-weight: 100;
+.price {
+  display: flex;
+  justify-content: space-between;
 }
 
 h2 {
