@@ -1,7 +1,6 @@
 .title {
     text-align: center;
     color: #515076;
-    background-color: #d5edff;
 }
 
 .card {
@@ -14,7 +13,7 @@
 body {
   font-family: "montserrat", arial;
   color: #515076;
-  background-image: url("images/fonofsite.jpg");
+  background-image: url("images/bg_1.png");
   background-size: 500px 500px;
   background-repeat: repeat;
   background-attachment: fixed;
