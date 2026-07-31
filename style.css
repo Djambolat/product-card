@@ -11,8 +11,12 @@
 }
 
 body {
-  font-family: "Arial";
+  font-family: "Montserrat", Arial;
   color: #515076;
+  background-image: url("images/bg_1.png");
+  background-size: 500px 500px;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 img {
@@ -28,9 +32,9 @@ img {
   width: 300px;
 }
 
-h2 span { 
-  text-align: right;
-  font-weight: 100;
+.price {
+  display: flex;
+  justify-content: space-between;
 }
 
 h2 {
