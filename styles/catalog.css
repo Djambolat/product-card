@@ -1,8 +1,0 @@
-/* оформление каталога продуктов */
-
-.product-list {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
