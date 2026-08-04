@@ -4,94 +4,97 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
   <h1 class="title">Выбери свой продукт</h1>
-  <ul class="card">
-    <li class="li-card"> 
-      <img src="images/mouss.png" alt="Увлажняющий мусс">
-      <p>Для нормальной кожи</p>
-      <h2>Увлажняющий мусс</h2>
-      <span>Глубоко увлажняет кожу лица<br/> оставляя её мягкой и гладкой</span>
+  <ul class="product-list">
+    <li class="product-card"> 
+      <img class="product-card__image" src="images/mouss.png" alt="Увлажняющий мусс">
+      <p class="product-card__description">Для нормальной кожи</p>
+      <h3 class="product-card__title">Увлажняющий мусс</h3>
+      <span class="product-card__comment">Глубоко увлажняет кожу лица<br/> оставляя её мягкой и гладкой</span>
       <br>
-      <span>Состав:</span>
-      <ul>
+      <span >Состав:</span>
+      <ul class="product-card__component-list">
         <li>Активные натуральные комплексы</li>
         <li>Витамины C, A, PP, B и E</li>
         <li>Солнцезащитные компоненты</li>
       </ul>
-      <div class="price">
-        <h2>Цена:</h2>
-        <h2>2750&#8381;</h2> 
+      <div class="product-card__price">
+        <h3>Цена:</h3>
+        <h3 class="product-card__price-value">2750&#8381;</h3> 
       </div>  
     </li>
-    <li class="li-card"> 
-      <img src="images/maska.png" alt="Увлажняющий мусс">
-      <p>Для нормальной кожи</p>
-      <h2>Увлажняющий мусс</h2>
-      <span>Способствует удерживанию влаги в верхних слоях кожи.</span>
+    <li class="product-card"> 
+      <img class="product-card__image" src="images/maska.png" alt="Увлажняющий мусс">
+      <p class="product-card__description">Для нормальной кожи</p>
+      <h3 class="product-card__title">Увлажняющий мусс</h3>
+      <span class="product-card__comment">Способствует удерживанию влаги в верхних слоях кожи.</span>
       <br>
       <span>Состав:</span>
-      <ul>
+      <ul class="product-card__component-list">
         <li>Воски</li>
         <li>Минералы</li>
         <li>масла</li>
       </ul>
-      <div class="price">
-        <h2>Цена:</h2>
-        <h2>3500&#8381;</h2> 
+      <div class="product-card__price">
+        <h3>Цена:</h3>
+        <h3 class="product-card__price-value">3500&#8381;</h3> 
       </div>
     </li>
-    <li class="li-card">   
-      <img src="images/gel.png" alt="Увлажняющий мусс">
-      <p>Для нормальной кожи</p>
-      <h2>Увлажняющий мусс</h2>
-      <span>Интенсивно очищает, не повреждает защитный барьер кожи.</span>
+    <li class="product-card">   
+      <img class="product-card__image" src="images/gel.png" alt="Увлажняющий мусс">
+      <p class="product-card__description">Для нормальной кожи</p>
+      <h3 class="product-card__title">Увлажняющий мусс</h3>
+      <span class="product-card__comment">Интенсивно очищает, не повреждает защитный барьер кожи.</span>
       <br>
       <span>Состав:</span>
-      <ul>
+      <ul class="product-card__component-list">
         <li>Активные натуральные комплексы</li>
         <li>Витамины C, A, PP, B и E</li>
         <li>Солнцезащитные компоненты</li>
       </ul>
-      <div class="price">
-        <h2>Цена:</h2>
-        <h2>1650&#8381;</h2> 
+      <div class="product-card__price">
+        <h3>Цена:</h3>
+        <h3 class="product-card__price-value">1650&#8381;</h3> 
       </div>
     </li>
-    <li class="li-card">
-      <img src="images/present_1.png" alt="Увлажняющий мусс">
-      <p>Для нормальной кожи</p>
-      <h2>Увлажняющий мусс</h2>
-      <span>Набор, состоящий из увлажняющего крема и маски.</span>
+    <li class="product-card">
+      <img class="product-card__image" src="images/present_1.png" alt="Увлажняющий мусс">
+      <p class="product-card__description">Для нормальной кожи</p>
+      <h3 class="product-card__title">Увлажняющий мусс</h3>
+      <span class="product-card__comment">Набор, состоящий из увлажняющего крема и маски.</span>
       <br>
       <span>Состав:</span>
-      <ul>
+      <ul class="product-card__component-list">
         <li>Воски</li>
         <li>Минералы</li>
         <li>масла</li>
       </ul>
-     <div class="price">
-        <h2>Цена:</h2>
-        <h2>4750&#8381;</h2> 
+     <div class="product-card__price">
+        <h3>Цена:</h3>
+        <h3 class="product-card__price-value">4750&#8381;</h3> 
       </div>
     </li>
-    <li class="li-card">  
-      <img src="images/present_5.png" alt="Увлажняющий мусс">
-      <p>Для нормальной кожи</p>
-      <h2>Увлажняющий мусс</h2>
-      <span>Весь набор средств Invisible symphony, крем, маска, мусс и гель для умывания.</span>
+    <li class="product-card">  
+      <img class="product-card__image" src="images/present_5.png" alt="Увлажняющий мусс">
+      <p class="product-card__description">Для нормальной кожи</p>
+      <h3 class="product-card__title">Увлажняющий мусс</h3>
+      <span class="product-card__comment">Весь набор средств Invisible symphony, крем, маска, мусс и гель для умывания.</span>
       <br>
       <span>Состав:</span>
-      <ul>
+      <ul class ="product-card__component-list">
         <li>Воски</li>
         <li>Минералы</li>
         <li>масла</li>
       </ul>
-    <div class="price">
-        <h2>Цена:</h2>
-        <h2>7520&#8381;</h2> 
+     <div class="product-card__price">
+        <h3>Цена:</h3>
+        <h3 class="product-card__price-value">7520&#8381;</h3> 
       </div>
     </li>
   </ul>
