@@ -65,7 +65,22 @@ padding-top: 5px;
   font-weight: 400;
 }
 
+.change-color-card-button {
+background-color: aliceblue;
+}
 
+.change-color-allcards-button {
+background-color: aliceblue;
+}
 
+.second-color-button{
+  background-color: rgb(208, 137, 175);
+}
 
-  
+.change-color-button {
+background-color: rgb(145, 185, 220);
+}
+
+.open-google-button {
+background-color: aliceblue;
+}
