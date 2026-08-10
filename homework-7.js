@@ -1,5 +1,5 @@
 function checkWeather(city, temperature){
-console.log(`сейчас в ${city} температура -${temperature} градусов по цельсию`)
+console.log(`сейчас в ${city} температура- ${temperature} градусов по цельсию`)
 }
 checkWeather("Махачкала", 50)
 
