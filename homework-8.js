@@ -63,7 +63,7 @@ const Odyssey = {
 const booksGomer = [Iliada, Odyssey];
 
 //9
-const HarryPotter = {
+const harryPotter = {
   name: "Гарри Поттер и философский камень",
   author: "Джоан Роулинг",
   year: 1997,
@@ -72,7 +72,7 @@ const HarryPotter = {
   copies: 10000,
   isRare: undefined
 }
-const HarryPotter2 ={
+const harryPotter2 ={
   name: "Гарри Поттер и Тайная комната",
   author: "Джоан Роулинг",
   year: 1998,
