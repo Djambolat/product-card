@@ -84,3 +84,136 @@ body {
 .open-google-button {
   background-color: aliceblue;
 }
+
+.footer{
+  background-color: #515076;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  align-items: center;
+  height: 500px;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.footer__top{
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
+.footer__sales{
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer__form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 61px;
+  width: 477px;
+  position: relative;
+  padding: 0px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.hr-vertical{
+  margin: 0px;
+  border: none;
+  background-color: black;
+  height: 20px;
+  width: 2px;
+}
+
+#footer__input{
+  width:70%;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+  border: 0px;
+  padding: 0px;
+  padding-inline-start: 40px;
+  margin:0px ;
+  font-size: 18px;
+}
+
+
+.footer__button{
+  width: 30%;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  border: 0px;
+  margin:0px ;
+  background-color: white;
+  font-size: 18px;
+}
+
+.footer__about img{
+  height: 40px;
+  width: 40px;
+  margin: 30px 30px 0px 0px;
+}
+
+.footer__site-navigation{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 60%;
+  color: white;
+}
+
+.footer__site-navigation a{
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer__bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.footer__bottom hr{
+  width: 30%;
+  border: none;
+  background-color: white;
+  height: 1px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #515076;
+  color: white;
+}
+
+.header__profile{
+font-size: large;
+cursor: pointer;
+margin-right: 30px;
+}
+
+.header__button{
+  padding: auto;
+ width: auto;
+ font-size: large;
+ height: 40px;
+ border-radius: 10px;
+ border-style: none;
+ margin-right: 10px;
+ cursor: pointer;
+}
+
+.off{
+  display: none;
+}
