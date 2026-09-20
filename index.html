@@ -10,12 +10,27 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="modal-overlay"></div>
+  <div class="modal-window">
+    <button class="modal-close-button">X</button>
+    <form class="modal-form">
+      <input type="text" name="name" placeholder="имя" required>
+      <input type="text" name="surname" placeholder="Фамилия" required>
+      <input type="date" name="birthDate" placeholder="дата рождения" required>
+      <input type="text" name="login" placeholder="логин" required>
+      <input type="password" name="password" placeholder="пароль" required>
+      <input type="password" name="password-confirm" placeholder="подтвердите пароль" required>
+      <button type="submit" class="modal-form__button">Зарегистрироваться</button>
+    </form>
+  </div>
   <section class="header">
     <h2 class="header__logo">FreshSkin</h2>
     <div>
         <span class="header__profile">Andrew</span>
-        <button class="header__button login">Войти</button>
-        <button class="header__button auth">Регистрация</button>
+        <div class="header__buttons">
+          <button class="header__button login">Войти</button>
+          <button class="header__button auth">Регистрация</button>
+        </div>
     </div>
   </section>
   <ul>
@@ -33,7 +48,7 @@
     </li>
   </ul>
   <p>введите количество карточек</p>
-  <input class="input" placeholder="введите только число">
+  <input name="count-card" class="input" placeholder="введите только число">
   <button class="input-button">отправить</button>
   <h1 class="title">Выбери свой продукт</h1>
   <ul class="product-list">
@@ -70,7 +85,7 @@
       <section class="footer__sales">
         <h2>Подпишись на наши акции:</h2>
         <form id="footer__form">
-          <input type="email" id="footer__input" placeholder="Введите email...">
+          <input type="email" name="email" id="footer__input" placeholder="Введите email...">
           <hr class="hr-vertical">
           <button type="submit" class="footer__button">Подписаться</button>
         </form>
@@ -87,6 +102,7 @@
       <span>www.product-card.com all right reserve</span>
     </section>
   </footer>
+  <script src="homework-11.js" type="module"></script>
   <script src="homework-10.js" type="module"></script>
   <script src="comments.js" type="module"></script>
   <script src="main.js"></script>
