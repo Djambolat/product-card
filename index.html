@@ -10,6 +10,29 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="modal-overlay"></div>
+  <div class="modal-window">
+    <button class="modal-close-button">X</button>
+    <form class="modal-form">
+      <input type="text" name="name" placeholder="имя" required>
+      <input type="text" name="surname" placeholder="Фамилия" required>
+      <input type="date" name="birthDate" placeholder="дата рождения" required>
+      <input type="text" name="login" placeholder="логин" required>
+      <input type="password" name="password" placeholder="пароль" required>
+      <input type="password" name="password-confirm" placeholder="подтвердите пароль" required>
+      <button type="submit" class="modal-form__button">Зарегистрироваться</button>
+    </form>
+  </div>
+  <section class="header">
+    <h2 class="header__logo">FreshSkin</h2>
+    <div>
+        <span class="header__profile">Andrew</span>
+        <div class="header__buttons">
+          <button class="header__button login">Войти</button>
+          <button class="header__button auth">Регистрация</button>
+        </div>
+    </div>
+  </section>
   <ul>
     <li>
       <button class="change-color-card-button">поменять цвет первой</button>
@@ -25,7 +48,7 @@
     </li>
   </ul>
   <p>введите количество карточек</p>
-  <input class="input" placeholder="введите только число">
+  <input name="count-card" class="input" placeholder="введите только число">
   <button class="input-button">отправить</button>
   <h1 class="title">Выбери свой продукт</h1>
   <ul class="product-list">
@@ -49,8 +72,39 @@
       </li>
     </template>
   </ul>
+  <footer class="footer">
+    <section class="footer__top">
+      <section class="footer__about">
+        <h2>Product Cards</h2>
+        <span>У нас самые лучшие Продукты для кожи </span>
+        <nav>
+          <a href=""><img src="images/tg-icon.png" alt="telegram"></a>
+          <a href=""><img src="images/vk-icon.png" alt="vk"></a>
+        </nav>
+      </section>
+      <section class="footer__sales">
+        <h2>Подпишись на наши акции:</h2>
+        <form id="footer__form">
+          <input type="email" name="email" id="footer__input" placeholder="Введите email...">
+          <hr class="hr-vertical">
+          <button type="submit" class="footer__button">Подписаться</button>
+        </form>
+      </section>
+      <nav class="footer__site-navigation">
+        <h3>Быстрые ссылки</h3>
+        <a href="">Главная</a>
+        <a href="">Магазин</a>
+        <a href="">Контакты</a>
+      </nav>
+    </section>
+    <section class="footer__bottom">
+      <hr class="hr-horizontal">
+      <span>www.product-card.com all right reserve</span>
+    </section>
+  </footer>
+  <script src="homework-11.js" type="module"></script>
   <script src="homework-10.js" type="module"></script>
   <script src="comments.js" type="module"></script>
   <script src="main.js"></script>
-</p>
+</body>
 </html>
