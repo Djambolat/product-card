@@ -1,15 +1,18 @@
 import {Modal} from "./modal.js";
+import {Form} from "./form.js";
 
 const mModal = new Modal("modal-window");
 const regButton = document.querySelector('.auth');
 regButton.addEventListener("click",() => {
   mModal.openModal();
 })
+const modalForm = new Form(".modal-form");
+modalForm.submitButton.addEventListener('click', function(event) {
+  modalForm.checkPasswordMatch()
+  modalForm.formReset()
+  
 
-
-
-
-
+})
 
 
 
