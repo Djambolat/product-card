@@ -9,7 +9,12 @@ regButton.addEventListener("click",() => {
 const modalForm = new Form(".modal-form");
 modalForm.submitButton.addEventListener('click', function(event) {
   modalForm.checkPasswordMatch()
-  modalForm.formReset()
+  if(modalForm.checkPasswordMatch()===true){
+    modalForm.submitForm()
+  }
+  else{
+    event.preventDefault();
+  }
   
 
 })

@@ -17,14 +17,13 @@ export class Form {
       return false;
     }
     else {
-      this.modalWindow.classList.remove('modal-showed');
-      alert("Регистрация прошла успешно");
-      return true;
-      
+      return true;   
     }
   }
-  
-  formReset() {
+
+  submitForm(){
+    this.modalWindow.classList.remove('modal-showed');
+    alert("Регистрация прошла успешно");
     this.form.reset();
   }
 
