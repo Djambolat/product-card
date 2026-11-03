@@ -1,5 +1,7 @@
 import {Modal} from "./modal.js";
 import {Form} from "./form.js";
+import {Coffee} from "./homework-13.js";
+import {Tea} from "./homework-13.js";
 
 const mModal = new Modal("modal-window");
 const regButton = document.querySelector('.auth');
@@ -19,7 +21,8 @@ modalForm.submitButton.addEventListener('click', function(event) {
 
 })
 
-
+const cola = new Coffee("cola","big","300",4,"espresso","whole")
+cola.getInfo()
 
 
 

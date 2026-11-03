@@ -1,4 +1,4 @@
-class Drink{
+export class Drink{
     #temperature
     constructor(name,size, price, temperature){
         this.name = name;
@@ -15,7 +15,48 @@ class Drink{
     addTemperature(myTemp){
         this.#temperature = myTemp
     }
+    #drinkCooking(){
+        console.log("заказ принят готовка началась...") 
+    }
+
 }
-const cola = new Drink("cola","big","300",4)
-cola.addTemperature(20)
-cola.getInfo()
+
+export class Coffee extends Drink{
+    constructor(name,size, price, temperature, coffeeType, milkType){
+        super(name,size, price, temperature)
+        this.coffeeType = coffeeType
+        this.milkType = milkType
+    }
+
+     getInfo(){
+        super.getInfo()
+        console.log(`тип молока ${this.milkType}`)
+            console.log(`тип кофе ${this.coffeeType}`)
+        }   
+}
+
+export class Tea extends Drink{
+    constructor(name,size, price, temperature, teaType, sugarAmount){
+        super(name,size, price, temperature)
+        this.teaType = teaType
+        this.sugarAmount = sugarAmount
+    }
+}
+
+export class Cafe{
+    constructor(name, location){
+        this.name = name
+        this.location = location
+    }
+
+    getCafeInfo(){
+        console.log(`кафе ${this.name} находится по адресу ${this.location}`)
+    }
+
+    orderDrink(drink){
+        console.log(`вы заказали ${drink.name} размером ${drink.size} по цене ${drink.price}`)
+        drink.drinkCooking()
+    }
+}
+
+
