@@ -15,8 +15,15 @@ export class Drink{
     addTemperature(myTemp){
         this.#temperature = myTemp
     }
-    #drinkCooking(){
+    #drinkCookingProcess(){
         console.log("заказ принят готовка началась...") 
+    }
+    drinkReady(){
+        console.log("ваш заказ готов")
+    }
+    drinkCooking(){
+        this.#drinkCookingProcess()
+        this.drinkReady()
     }
 
 }
